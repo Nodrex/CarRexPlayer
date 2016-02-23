@@ -1,0 +1,7 @@
+<resources>
+
+    <color name="background">#2C3539</color>
+    <color name="music">#2B1B17</color>
+    <color name="currentMusic">#737CA1</color>
+
+</resources>

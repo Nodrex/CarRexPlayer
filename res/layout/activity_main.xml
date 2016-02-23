@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <ImageButton
+        android:id="@+id/prev"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="25dp"
+        android:background="@android:color/black"
+        android:src="@android:drawable/ic_media_rew" />
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="100dp"
+        android:layout_margin="25dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/black"
+        android:src="@android:drawable/ic_media_pause" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="25dp"
+        android:background="@android:color/black"
+        android:src="@android:drawable/ic_media_ff" />
+
+    <com.nodrex.carrexplayer.custom.CustomRecyclerView
+        android:id="@+id/list"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/next" >
+    </com.nodrex.carrexplayer.custom.CustomRecyclerView>
+
+</RelativeLayout>
